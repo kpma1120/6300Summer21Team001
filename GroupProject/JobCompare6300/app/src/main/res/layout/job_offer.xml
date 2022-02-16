@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_job_offer"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/sde"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/company"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobCompany"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/google"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobCity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="Palo Alto"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/state"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobState"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="CA"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_of_living"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobCostOfLiving"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/_100"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/annual_salary"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobSalary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/_200_000_00"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/annual_bonus"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobAnualBonus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/_25_000_00"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/telework_days"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobTeleworkDays"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/_5"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/vacation_days"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobVacationdays"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/_60"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stocks"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/offeredJobShares"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:hint="@string/_1_000"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <LinearLayout
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/joSaveJob"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="saveJobDetails"
+            android:text="@string/save" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/joMainMenu"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="returnFromJobDetailsToMain"
+            android:text="@string/main_menu" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/compareOfferWithCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="compareOfferedJobWithCurrentJob"
+            android:text="Compare" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/addAnotherOfferId"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="enterAnotherOffer"
+            android:text="Another Offer" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

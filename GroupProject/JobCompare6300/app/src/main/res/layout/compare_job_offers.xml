@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+                <TableLayout
+
+                    android:id="@+id/jobConparisonLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="177dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="#EFF3C8"
+                    android:shrinkColumns="1"
+                    android:stretchColumns="1">
+
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/compareAnotherOfferId"
+                    android:layout_width="160dp"
+                    android:layout_height="75dp"
+                    android:onClick="returnToOffer"
+                    android:text="Compare Another Offer" />
+
+
+                <Button
+                    android:id="@+id/compareToMainMenu"
+                    android:layout_width="159dp"
+                    android:layout_height="75dp"
+                    android:onClick="returnFromComparisonToMain"
+                    android:text="@string/main_menu" />
+
+        </LinearLayout>
+</ScrollView>

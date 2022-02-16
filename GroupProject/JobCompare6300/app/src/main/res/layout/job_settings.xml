@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Settings"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Annual Salary :"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/salarySetting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Annual Bonus :"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/bonusSetting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Telework Days :"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/teleworkSetting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Leave Times :"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/leaveSetting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Shares :"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/shareSetting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="end"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/settingSaveId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="saveSetting"
+            android:text="@string/save" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/sMainMenu"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="returnFromSettingsToMain"
+            android:text="@string/main_menu" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableLayout
+
+            android:id="@+id/jobofferRankLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:shrinkColumns="1"
+            android:stretchColumns="1">
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/selectedJobView"
+            android:layout_width="393dp"
+            android:layout_height="75dp"
+            android:text="Selected Jobs:"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bcomparejoboffer"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:onClick="compareJobOffers"
+            android:text="Compare" />
+
+        <Button
+            android:id="@+id/toMainfromjbcompare"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:onClick="toMainMenu"
+            android:text="Main Menu" />
+
+    </LinearLayout>
+</ScrollView>
